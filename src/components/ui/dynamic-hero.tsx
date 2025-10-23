@@ -320,7 +320,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 
         <div className="mt-12 lg:mt-16 w-full mx-auto overflow-hidden">
           <div className="bg-border rounded-[2rem] p-[0.25rem]">
-            <div className="relative h-64 sm:h-72 md:h-80 lg:h-96 rounded-[1.75rem] bg-card flex items-center justify-center overflow-hidden">
+            <div className="relative h-[85vh] rounded-[1.75rem] bg-card flex items-center justify-center overflow-hidden">
               {imageUrl && (
                 <img
                   src={imageUrl}
